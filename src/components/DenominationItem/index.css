@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.denomination-list {
+  list-style-type: none;
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #38255a;
+  color: #d4d2db;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  outline: none;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 25px;
+  }
+}

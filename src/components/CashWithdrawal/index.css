@@ -1,0 +1,145 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdraw-container {
+  background-color: #150b3e;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdraw-container {
+    width: 50%;
+    max-width: 422px;
+    padding-top: 48px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+  }
+}
+.users-details-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+
+.initial {
+  color: #7c3aed;
+  font-size: 15px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 32px;
+  }
+}
+
+.currency {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw {
+    font-size: 24px;
+    margin-top: 25px;
+  }
+}
+.choose-sum {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-sum {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.denominations-list {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 30%;
+
+  padding: 10px;
+}
